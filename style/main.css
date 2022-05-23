@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1172px;
+	margin: 0 auto;
+}
+
+.display-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header{
+	margin: 30px 0 100px 0;
+}
+
+.header-title{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+	color: #000000;
+}
+
+.add-product-btn{
+	background: #FFFFFF;
+	border: 2px solid #8EC31B;
+	border-radius: 50px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #8EC31B;
+	padding: 10px 30px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.add-product-btn:hover{
+	background: #8EC31B;
+	color: #FFF;
+}
+
+.wrapper{
+	background: #E0E4F3;
+	border-radius: 30px;
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px 60px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.item{
+	margin: 10px 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.item-text{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+	color: #000000;
+}
+
+.delete-products-form{
+
+}
+
+.save-products-form{
+	margin: 10px 0;
+}
+
+.delete-product-btn{
+	background: #FFFFFF;
+	border: 2px solid #FF0000;
+	border-radius: 50px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FF0000;
+	padding: 10px 30px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.delete-product-btn:hover{
+	background: #FF0000;
+	color: #FFF;
+}
+
+input{
+	background: #FFFFFF;
+	border: 2px solid #8EC31B;
+	border-radius: 50px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000;
+	padding: 10px 30px;
+	transition: 0.3s;
+	outline: none;
+}
+
+input:focus{
+	border: 2px solid #FF0000;
+}
